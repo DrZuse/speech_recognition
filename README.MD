@@ -145,7 +145,7 @@ The script will automatically clean up temporary files generated during the proc
 
 - Customize the script as needed for your specific use case, such as handling different audio file formats or configuring PocketSphinx for different languages.
 
-# Speech Recognition Script
+# Whisper ASR (Automatic Speech Recognition) 
 
 `whisper_sr.py` - this script utilizes the Whisper ASR (Automatic Speech Recognition) library to transcribe audio from a given file. It supports multiple models for speech recognition, including tiny, base, small, medium, and large.
 
