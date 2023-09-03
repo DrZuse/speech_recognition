@@ -2,7 +2,7 @@ import whisper
 
 def speech_recognition(model='base'):
     speech_model = whisper.load_model(model)
-    audio_file = 'audio/WIKITONGUES： Karen speaking Cantonese.mp3'
+    audio_file = 'swartz.wav'
     result = speech_model.transcribe(audio_file)
     print(result.get('text'))
 
